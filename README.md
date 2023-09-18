@@ -1,2 +1,2 @@
 # vandriacco.github.io
-My personalized website for my Christian Lifestyles personal project
+My personal website to showcase my experience and skills.
