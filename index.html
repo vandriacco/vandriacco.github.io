@@ -81,8 +81,18 @@
                 
                 <section class="projects section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Projects</h2>
+                        <h2 class="heading">Projects (Click the titles to see the projects!)</h2>
                         <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="https://ai-flashcard-creator-s6bk.vercel.app/" target="_blank">Translator to Flashcards </a><span class="year">(September 2024)</span></h3>
+                                <p class="summary">I created a web app which allows you to translate a text and download an anki flashcard deck made of those words and translations. 
+                                    The front-end of this project is made using React.js and the Material UI component library, hosted on vercel. The ui is not the best, as I 
+                                    am more passionate about creating a working back-end than a well polished user experience. For the back-end, I made a python flask api and hosted it on Render. 
+                                    Within the API I used the DeepL library and api to handle the translation using their advanced neural network. Once I had the translated text, I used the genanki 
+                                    library to turn those words into a .apkg file which automatically downloads upon being generated. Since this is a small scale project, I decided to use a monorepo 
+                                    for simplicity.
+                                </p>
+                            </div>
                             <div class="item">
                                 <h3 class="title"><a href="https://rpnpackers.github.io/Final-Project/" target="_blank">Walkability in the US </a><span class="year">(May 2023)</span></h3>
                                 <p class="summary">My partner and I analyzed Census Walkability data using Pandas and plotted on an interactive choropleth map using GeoPandas and geojson files. 
@@ -93,7 +103,7 @@
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><a>Slack Bot </a><span class="year">(September 2023)</span></h3>
-                                    <p>I created Slack bot to respond to messages and automate tasks in a Slack workspace I am in using the Slack API and Replit. It can send scheduled
+                                    <p class="summary">I created Slack bot to respond to messages and automate tasks in a Slack workspace I am in using the Slack API and Replit. It can send scheduled
                                     messages and perform specific responses depending on the content of a sent message. I hosted the bot on a web server using Flask to send and receive event information from the Slack API to a specific endpoint.
                                     </p>
                             </div><!--//item-->                            
